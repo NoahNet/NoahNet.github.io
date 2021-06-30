@@ -91,7 +91,7 @@ function KnopActie(){
 
 async function bestand() {
 
-    let url = 'https://noahnet.github.io/Data/orders.json';
+    let url = 'https://noahnet.github.io/Data/orders.geojson';
 
     let een;
     let twee;
