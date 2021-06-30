@@ -1,0 +1,147 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+label::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+label article {
+    height: 8vw;
+    width: 8vw;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+:checked+label {
+    border-color: #ddd;
+}
+
+:checked+label::before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+}
+
+:checked+label article {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+}
+
+label{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+section{
+    float: right;
+    position: sticky;
+    top: 20px;
+}
+
+#one{
+    background-color: rgb(251,235,194);
+}
+
+#two{
+    background-color: rgb(234,192,98);
+}
+#three{
+    background-color: rgb(236,198,94);
+}
+#four{
+    background-color: rgb(241,210,55);
+}
+#five{
+    background-color: rgb(177,154,39);
+}
+#six{
+    background-color: rgb(152,130,22);
+}
+#seven{
+    background-color: rgb(219,244,251);
+}
+#eight{
+    background-color: rgb(185,220,229);
+}
+#nine{
+    background-color: rgb(151,198,209);
+}
+#ten{
+    background-color: rgb(110,179,196);
+}
+#eleven{
+    background-color: rgb(27,144,173);
+}
+#twelve{
+    background-color: rgb(170,252,173);
+}
+#thirteen{
+    background-color: rgb(98,233,103);
+}
+#fourteen{
+    background-color: rgb(44,224,51);
+}
+#fifteen{
+    background-color: rgb(253,4,4);
+}
+#sixteen{
+    background-color: rgb(253,154,4);
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+
+

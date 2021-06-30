@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<section>
+    <br>
+    <button id="Bestel">Bestel</button>
+    <br>
+    <br>
+    <input id="output" readonly>
+    <br>
+    <br>
+    <button id="Payconic">Payconic</button>
+    <button id="Cash">Cash</button>
+</section>
+
+<body>
+    <input type="checkbox" id="checkGerecht1" />
+    <label for="checkGerecht1">
+        <article id="one">
+            <p>Chocolade</p>
+            <p>€4</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht1').stepDown()">-</button>
+        <input type="number" id="hvlGerecht1" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht1').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht2" />
+    <label for="checkGerecht2">
+        <article id="two">
+            <p>Slagroom</p>
+            <p>€3,5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht2').stepDown()">-</button>
+        <input type="number" id="hvlGerecht2" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht2').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht3" />
+    <label for="checkGerecht3">
+        <article id="three">
+            <p>Donut</p>
+            <p>€5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht3').stepDown()">-</button>
+        <input type="number" id="hvlGerecht3" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht3').stepUp()">+</button>
+    </label>
+
+    <br>
+
+    <input type="checkbox" id="checkGerecht4" />
+    <label for="checkGerecht4">
+        <article id="four">
+            <p>Milkshake</p>
+            <p>Medium</p>
+            <p>€4,5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht4').stepDown()">-</button>
+        <input type="number" id="hvlGerecht4" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht4').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht5" />
+    <label for="checkGerecht5">
+        <article id="five">
+            <p>Milkshake</p>
+            <p>Large</p>
+            <p>€6</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht5').stepDown()">-</button>
+        <input type="number" id="hvlGerecht5" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht5').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht6" />
+    <label for="checkGerecht6">
+        <article id="six">
+            <p>Tower</p>
+            <p>€14</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht6').stepDown()">-</button>
+        <input type="number" id="hvlGerecht6" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht6').stepUp()">+</button>
+    </label>
+
+    <br>
+
+    <input type="checkbox" id="checkGerecht7" />
+    <label for="checkGerecht7">
+        <article id="seven">
+            <p>Icetea</p>
+            <p>€3,5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht7').stepDown()">-</button>
+        <input type="number" id="hvlGerecht7" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht7').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht8" />
+    <label for="checkGerecht8">
+        <article id="eight">
+            <p>smoothie</p>
+            <p>€3,5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht8').stepDown()">-</button>
+        <input type="number" id="hvlGerecht8" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht8').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht9" />
+    <label for="checkGerecht9">
+        <article id="nine">
+            <p>Prosecco</p>
+            <p>€10</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht9').stepDown()">-</button>
+        <input type="number" id="hvlGerecht9" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht9').stepUp()">+</button>
+    </label>
+
+    <br>
+
+    <input type="checkbox" id="checkGerecht10" />
+    <label for="checkGerecht10">
+        <article id="ten">
+            <p>SPA plat</p>
+            <p>€2</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht10').stepDown()">-</button>
+        <input type="number" id="hvlGerecht10" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht10').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht11" />
+    <label for="checkGerecht11">
+        <article id="eleven">
+            <p>SPA Bruis</p>
+            <p>€2</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht11').stepDown()">-</button>
+        <input type="number" id="hvlGerecht11" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht11').stepUp()">+</button>
+    </label>
+
+
+    <input type="checkbox" id="checkGerecht12" />
+    <label for="checkGerecht12">
+        <article id="twelve">
+            <p>2 glazen</p>
+            <p>€1,5</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht12').stepDown()">-</button>
+        <input type="number" id="hvlGerecht12" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht12').stepUp()">+</button>
+    </label>
+
+    <br>
+
+    <input type="checkbox" id="checkGerecht13" />
+    <label for="checkGerecht13">
+        <article id="thirteen">
+            <p>Picknick</p>
+            <p>mand</p>
+            <p>€25</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht13').stepDown()">-</button>
+        <input type="number" id="hvlGerecht13" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht13').stepUp()">+</button>
+    </label>
+<!--
+    <input type="checkbox" id="checkGerecht14" />
+    <label for="checkGerecht14">
+        <article id="fourteen">
+            <p>ijsje</p>
+            <p>€2</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht14').stepDown()">-</button>
+        <input type="number" id="hvlGerecht14" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht14').stepUp()">+</button>
+    </label>
+-->
+
+    <input type="checkbox" id="checkGerecht15" />
+    <label for="checkGerecht15">
+        <article id="fifteen">
+            <p>Korting</p>
+            <p>€4</p>
+        </article>
+        <button onclick="this.parentNode.querySelector('#hvlGerecht15').stepDown()">-</button>
+        <input type="number" id="hvlGerecht15" min="1" max="12" value="1">
+        <button onclick="this.parentNode.querySelector('#hvlGerecht15').stepUp()">+</button>
+    </label>
+
+    <input type="checkbox" id="checkGerecht16" />
+    <label for="checkGerecht16">
+        <article id="sixteen">
+            <p>Eigen</p>
+            <p>bedrag</p>
+            <p>€?</p>
+        </article>
+        <!--- input nummer voor eigenbedrag --->
+        <input type="number" id="hvlGerecht16" min="1" max="1000" value="0">
+    </label>
+
+    <script type="module" src="Script.js"></script>
+
+
+</body>
+</html>
